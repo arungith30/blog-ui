@@ -16,7 +16,7 @@ function App() {
       <TopBar />
       <Routes>
         
-          <Route exact path='/' element={<Home />} />
+        <Route exact path='/' element={<Home />} />
        
         <Route path="/register" element={user ? <Home /> : <Register />}/>
         <Route path="/login"element={user ? <Home /> : <Login />}/>
